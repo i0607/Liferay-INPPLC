@@ -1,0 +1,69 @@
+2022-05-03 14:03:17.126 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56 -Dcatalina.home=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56 -Djava.io.tmpdir=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56\temp
+2022-05-03 14:03:24.672 INFO  [main][ENGINE:-2] checkpointClose start
+2022-05-03 14:03:24.677 INFO  [main][ENGINE:-2] checkpointClose synched
+2022-05-03 14:03:24.999 INFO  [main][ENGINE:-2] checkpointClose script done
+2022-05-03 14:03:25.020 INFO  [main][ENGINE:-2] checkpointClose end
+2022-05-03 14:03:25.337 WARN  [main][DialectDetector:82] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-05-03 14:03:25.337 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-05-03 14:03:32.961 INFO  [main][ModuleFrameworkImpl:1238] Starting initial bundles
+2022-05-03 14:03:37.719 INFO  [main][ModuleFrameworkImpl:1535] Started initial bundles
+2022-05-03 14:03:37.722 INFO  [main][ModuleFrameworkImpl:1584] Starting dynamic bundles
+2022-05-03 14:04:12.367 INFO  [Start Level: Equinox Container: d120f026-a1b8-433e-bdc8-c3170dcea0ba][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-03 14:04:12.478 INFO  [CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[com.liferay.portal.security.antisamy.configuration.AntiSamyClassNameConfiguration])][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-03 14:04:12.567 INFO  [CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[com.liferay.portal.security.antisamy.configuration.AntiSamyClassNameConfiguration])][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-03 14:04:47.349 INFO  [main][ModuleFrameworkImpl:1606] Started dynamic bundles
+2022-05-03 14:04:47.350 INFO  [main][ModuleFrameworkImpl:1613] Starting web bundles
+2022-05-03 14:04:59.411 INFO  [main][ModuleFrameworkImpl:1667] Started web bundles
+2022-05-03 14:04:59.411 INFO  [main][ModuleFrameworkImpl:253] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-05-03 14:05:03.878 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-05-03 14:05:55.837 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-05-03 14:06:05.896 INFO  [main][StartupHelperUtil:81] There are no patches installed
+2022-05-03 14:06:06.211 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-03 14:06:06.249 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 38 ms
+2022-05-03 14:06:07.216 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\deploy
+2022-05-03 14:06:14.719 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-05-03 14:06:29.566 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-05-03 14:06:29.950 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-05-03 14:06:30.343 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-05-03 14:06:30.757 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-05-03 14:06:31.094 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-05-03 14:46:46.586 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m17s747ms8µs600ns).
+2022-05-03 14:46:53.479 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m17s736ms911µs200ns).
+2022-05-03 17:15:18.795 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h14m2s30ms905µs800ns).
+2022-05-03 17:15:25.754 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h14m2s23ms641µs).
+2022-05-03 17:22:45.597 WARN  [liferay/mail-2][MailMessageListener:140] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2022-05-03 17:22:45.597 WARN  [liferay/mail-2][MailMessageListener:53] Skipping email because the sender is not specified
+2022-05-03 17:23:43.483 WARN  [liferay/mail-3][MailMessageListener:140] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2022-05-03 17:23:43.485 WARN  [liferay/mail-3][MailMessageListener:53] Skipping email because the sender is not specified
+2022-05-03 18:19:37.668 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:339] Initializing com.liferay.site.initializer.raylife.d2c for group 40643
+2022-05-03 18:19:37.687 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 365 took 2 ms
+2022-05-03 18:19:37.916 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 366 took 229 ms
+2022-05-03 18:19:37.946 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 369 in 25 ms
+2022-05-03 18:19:46.097 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 372 in 8140 ms
+2022-05-03 18:20:02.119 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 376 took 16014 ms
+2022-05-03 18:20:02.128 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 381 took 0 ms
+2022-05-03 18:20:02.162 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 382 took 34 ms
+2022-05-03 18:20:02.170 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 383 took 0 ms
+2022-05-03 18:20:02.356 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 384 took 186 ms
+2022-05-03 18:20:05.491 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 385 took 3123 ms
+2022-05-03 18:20:05.493 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 389 took 0 ms
+2022-05-03 18:20:05.606 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 390 took 106 ms
+2022-05-03 18:20:05.684 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 394 took 73 ms
+2022-05-03 18:20:08.905 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 397 took 3218 ms
+2022-05-03 18:20:10.960 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 403 in 2052 ms
+2022-05-03 18:20:12.652 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 406 took 1692 ms
+2022-05-03 18:20:14.077 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 412 in 1425 ms
+2022-05-03 18:20:21.394 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 423 in 7310 ms
+2022-05-03 18:20:27.530 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 429 took 6136 ms
+2022-05-03 18:20:27.530 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 434 took 0 ms
+2022-05-03 18:20:27.651 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 438 took 121 ms
+2022-05-03 18:20:27.742 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:3011] Invoking line 444 in 91 ms
+2022-05-03 18:20:28.920 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 448 took 1177 ms
+2022-05-03 18:20:28.923 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:471] Initialized com.liferay.site.initializer.raylife.d2c for group 40643 in 51255 ms
+2022-05-03 18:22:28.382 INFO  [http-nio-8080-exec-6][BundleSiteInitializer:2992] Invoking line 457 took 609 ms
+2022-05-03 19:48:06.248 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m9s699ms877µs).
+2022-05-03 19:48:09.677 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=33m9s690ms462µs700ns).
+2022-05-03 20:57:55.801 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=55m15s890ms533µs200ns).
+2022-05-03 20:58:22.323 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m15s880ms313µs100ns).
+2022-05-03 21:50:50.095 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=37m54s80ms702µs200ns).
+2022-05-03 21:51:16.679 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m54s77ms137µs400ns).

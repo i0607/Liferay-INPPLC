@@ -1,0 +1,29 @@
+2022-05-09 10:10:23.646 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56 -Dcatalina.home=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56 -Djava.io.tmpdir=C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\tomcat-9.0.56\temp
+2022-05-09 10:10:32.807 INFO  [main][ENGINE:-2] checkpointClose start
+2022-05-09 10:10:32.817 INFO  [main][ENGINE:-2] checkpointClose synched
+2022-05-09 10:10:33.186 INFO  [main][ENGINE:-2] checkpointClose script done
+2022-05-09 10:10:33.211 INFO  [main][ENGINE:-2] checkpointClose end
+2022-05-09 10:10:33.596 WARN  [main][DialectDetector:82] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-05-09 10:10:33.596 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-05-09 10:10:41.575 INFO  [main][ModuleFrameworkImpl:1238] Starting initial bundles
+2022-05-09 10:10:46.826 INFO  [main][ModuleFrameworkImpl:1535] Started initial bundles
+2022-05-09 10:10:46.835 INFO  [main][ModuleFrameworkImpl:1584] Starting dynamic bundles
+2022-05-09 10:11:31.787 INFO  [Start Level: Equinox Container: 559d6dc1-741c-427b-944d-4ba9ee509abe][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-09 10:11:31.919 INFO  [CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[com.liferay.portal.security.antisamy.configuration.AntiSamyClassNameConfiguration])][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-09 10:11:32.010 INFO  [CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[com.liferay.portal.security.antisamy.configuration.AntiSamyClassNameConfiguration])][Policy:289] Attempting to load AntiSamy policy from an input stream.
+2022-05-09 10:12:10.016 INFO  [main][ModuleFrameworkImpl:1606] Started dynamic bundles
+2022-05-09 10:12:10.016 INFO  [main][ModuleFrameworkImpl:1613] Starting web bundles
+2022-05-09 10:12:20.346 INFO  [main][ModuleFrameworkImpl:1667] Started web bundles
+2022-05-09 10:12:20.346 INFO  [main][ModuleFrameworkImpl:253] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-05-09 10:12:23.926 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-05-09 10:13:05.910 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-05-09 10:13:13.336 INFO  [main][StartupHelperUtil:81] There are no patches installed
+2022-05-09 10:13:13.579 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-09 10:13:13.617 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 38 ms
+2022-05-09 10:13:14.324 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Users\HP\Desktop\LIFERAY\liferay-ce-portal-tomcat-7.4.3.21\liferay-ce-portal-7.4.3.21-ga21\deploy
+2022-05-09 10:13:27.409 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-05-09 10:13:36.278 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-05-09 10:13:36.806 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-05-09 10:13:37.097 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-05-09 10:13:37.297 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-05-09 10:13:37.523 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
